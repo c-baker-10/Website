@@ -1,7 +1,7 @@
 ﻿body {
    background-color: gray;
 }
-.box{
+.intro{
     width: 1000px;
     background: rgba(0,0,0,0.4);
     padding: 40px;
@@ -11,30 +11,50 @@
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
-.box-img{
+.intro-img{
     border-radius: 50%;
     width: 400px;
     height: 400px;
 }
-.box h1{
+.intro h1{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
 }
-.box h5{
+.intro h5{
     font-size: 25px;
     letter-spacing: 3px;
     font-weight: 100;
 }
-.box p{
+.intro p{
     text-align: justify;
 }
 ul{
     margin: 0;
     padding: 0;
 }
-.box li{
+.intro li{
     display: inline-block;
     margin: 6px;
     list-style: none;
 }
+
+.resume{
+    width: 1500px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.resume h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-align: center;
+}
+.resume li{
+    margin-left: 3%;
+}
+
