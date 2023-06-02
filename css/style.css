@@ -2,7 +2,7 @@
    background-color: gray;
 }
 .intro{
-    width: 1000px;
+    width: 60%;
     background: rgba(0,0,0,0.4);
     padding: 40px;
     text-align: center;
@@ -40,7 +40,7 @@ ul{
 }
 
 .resume{
-    width: 1500px;
+    width: 80%;
     height: 1350px;
     background: rgba(0,0,0,0.4);
     padding: 40px;
@@ -55,7 +55,8 @@ ul{
     font-weight: 100;
     text-align: center;
 }
-.resume li{
+.resume ul li{
     margin-left: 3%;
 }
+
 
