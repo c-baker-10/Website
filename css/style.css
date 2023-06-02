@@ -1,6 +1,31 @@
 ﻿body {
    background-color: gray;
 }
+.navBar{
+    height: 50px;
+    background: rgba(0,0,0,0.4);
+}
+.navBar nav{
+    float: right;
+}
+.navBar ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+.navBar li{
+    display: inline;
+    margin-right: 35px;
+}
+.navBar a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navBar a:hover{
+    color: black;
+}
 .intro{
     width: 60%;
     background: rgba(0,0,0,0.4);
@@ -41,13 +66,24 @@ ul{
 
 .resume{
     width: 80%;
-    height: 1350px;
     background: rgba(0,0,0,0.4);
     padding: 40px;
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 3%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+}
+.resume::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.resume div{
+    position: relative;
+}
+.resume div ul li{
+    margin-left: 3%;
 }
 .resume h1{
     font-size: 40px;
@@ -55,8 +91,14 @@ ul{
     font-weight: 100;
     text-align: center;
 }
-.resume ul li{
-    margin-left: 3%;
+
+.projects{
+    width: 80%;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
 }
-
-
